@@ -1,6 +1,0 @@
-usermail => admin@gmail.com
-userpass => admin
-
-usermail => raj@facebook.com
-userpass => rajisgood_221
-
